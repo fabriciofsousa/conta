@@ -1,4 +1,4 @@
-# Configurações do banco de dados H2
+# Configuraï¿½ï¿½es do banco de dados H2
 spring:
   datasource:
     url: jdbc:h2:mem:testdb
@@ -14,4 +14,10 @@ spring:
       ddl-auto: update
     show-sql: true
 
+  application:
+    name: nome-da-sua-aplicacao
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/client
 
